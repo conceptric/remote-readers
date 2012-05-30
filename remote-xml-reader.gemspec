@@ -4,8 +4,8 @@ require File.expand_path('../lib/remote-xml-reader/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["James Whinfrey"]
   gem.email         = ["james@conceptric.co.uk"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A library of readers that take remote data streams and parse them to a format for application consumption}
+  gem.summary       = %q{Remote stream parsing to a hash}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
