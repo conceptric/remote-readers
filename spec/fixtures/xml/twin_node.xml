@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jobs>
+  <item>
+    <child1>value1</child1>
+    <child2>value2</child2>
+	</item>
+  <item>
+    <child1>value1</child1>
+    <child2>value2</child2>
+	</item>
+</jobs?

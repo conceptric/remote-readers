@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<name>
+	<jobs>
+	  <item>
+	    <child1>value1</child1>
+	    <child2>value2</child2>
+		</item>
+	  <item>
+	    <child1>value1</child1>
+	    <child2><![CDATA[CDATA is included
+with special characters]]></child2>
+		</item>
+	  <item>
+			<jobs>
+				<item>This is not a valid child node</item>
+				<item>
+			    <child1>should be included</child1>
+			    <child2>should be included</child2>				
+				</item>
+			</jobs>
+	    <child1>value1</child1>
+	    <child2>value2</child2>
+	    <child3>
+				<subchild1>should be ignored</subchild1>
+				<subchild2>should be ignored</subchild2>
+			</child3>
+		</item>
+	</jobs>
+</name>
